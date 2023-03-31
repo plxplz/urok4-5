@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: auto;
+    
+}
+div{
+    margin-top: 2px;
+    text-align: center;
+}
+.container{
+    width: auto;
+}
+.Header{ 
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    color: aliceblue;
+    
+    
+}
+.navbar{
+    background-color: rgb(193, 193, 193);
+    
+    
+}
+.MainContentArea{
+    background-color: rgb(179, 178, 178);
+    height: 500px;
+    
+}
+footer{
+    margin-top: 10px;
+    height: 100px;
+    
+    margin: 10px;
+    padding: 10px;
+}
+.logo{
+    float: left;
+}
+
+.footerColumns{
+    display: flex;
+}
+.footerColumn{
+    flex: 50%;
+    margin: 10px;
+}
+footer,Header{
+    background-color: rgb(147, 147, 147);
+    padding: 10px;
+}
+
+
+.navbarList{
+    height: 43px;
+    background-color: rgb(193, 193, 193);
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    height: 110px;
+}
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+  }
+.navbarList {
+    width: 40%;
+}
+.navbarList:hover{
+    background-color: rgb(58, 58, 58);
+}
+.post{
+    background-color:rgb(193, 193, 193) ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.post.img{
+    margin: 20px;
+}
